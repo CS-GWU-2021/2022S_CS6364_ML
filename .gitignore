@@ -131,3 +131,7 @@ dmypy.json
 # pdf pptx
 *.pdf
 *.pptx
+
+# some files
+/Homework/h0
+public/
