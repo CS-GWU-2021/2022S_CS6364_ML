@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 # pdf pptx
-*/.pdf
-*/.pptx
+*.pdf
+*.pptx
