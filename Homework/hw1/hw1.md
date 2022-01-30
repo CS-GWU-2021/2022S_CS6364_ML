@@ -7,7 +7,7 @@ Construct an image classifier using the ***k-nearest neighbor*** algorithm. You 
 ### 2. Deadline
 Friday, Feb. 4
 
-### 3. Submisson
+### 3. Submission
 - A **.csv file** should be in the following format:  
   |ImageId |Label   |
   |--------|--------|
