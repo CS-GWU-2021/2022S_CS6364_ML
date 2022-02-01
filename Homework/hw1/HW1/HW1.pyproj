@@ -22,13 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="HW1.py" />
-    <Compile Include="predict.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="tools.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="train.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
