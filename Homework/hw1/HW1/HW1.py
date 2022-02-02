@@ -15,6 +15,7 @@ import tools
 train_file = 'D:/2022 Spring/2022S_CS6364_ML/Homework/hw1/public/data_mnist.csv'
 test_file = 'D:/2022 Spring/2022S_CS6364_ML/Homework/hw1/public/test_mnist.csv'
 output_file = './output.csv'
+ans_file = 'D:/2022 Spring/2022S_CS6364_ML/Homework/hw1/public/true_mnist_test.csv'
 
 def find_k( X, y, k_range, method = 1):
     """ Use method to find the best k value
@@ -89,7 +90,7 @@ def prediction(data, k_value, X_fit, y_fit):
 
 
 # sample of show img
-tools.show_img(train_file,415,True)
+#tools.show_img(train_file,415,True)
 #for i in range(2,60):
 #    tools.show_img(test_file,i,False)
 
@@ -114,3 +115,16 @@ k_value = 3
 test_X = tools.load_test_data(test_file, 10001)
 sc_test_X = scaler.transform(test_X)
 prediction(sc_test_X, k_value, sc_X, y)
+
+
+
+# Compute the correct rate （additional code)
+# the correct rate is 0.959
+"""
+knn = KNeighborsClassifier(n_neighbors = k_value)
+knn.fit(sc_X, y)
+ans_X, ans_y = tools.load_train_data(ans_file,10001)
+sc_ans_X = scaler.transform(ans_X)
+scores = knn.score(sc_ans_X, ans_y)
+print(scores)
+"""
