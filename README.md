@@ -27,8 +27,8 @@ Machine learning algorithms:
 |-----------|-----------|--------|
 |Homework 0|Some mathematical problems related to ML|Fri, 01/28|
 |Homework 1|K Nearest Neighbors Classifier|Fri, 02/04|
-|Homework 2|
-|Midterm Exam|
+|Homework 2|Regression|Fri, 02/18|
+|Midterm Exam|Naive Bayes Classification;Markov Model|Fri, 03/04|
 |Homework 3|
 |Homework 4|
 |Term Project|
