@@ -1,13 +1,10 @@
 # Homework 1
-### 1. Objective
+## 1. Objective
 Construct an image classifier using the ***k-nearest neighbor*** algorithm. You should
   - evaluate for a variety of ***k*** values
   - submit your best answers for the test set
 
-### 2. Deadline
-Friday, Feb. 4
-
-### 3. Submission
+## 2. Submission
 - A **.csv file** should be in the following format:  
   |ImageId |Label   |
   |--------|--------|
@@ -18,13 +15,13 @@ Friday, Feb. 4
   
 - An up to 2 pages writeup of how you evaluated the performance of you ***MNIST KNN model*** and decided on the ***k*** value
 
-### 4. Data Description
+### 3. Data Description
 There are 2 .csv files, one for training and another for predict, which contains 40,000 and 10,000 datas(rows) of images.  
 Each row makes up a 28x28-image of a handwriting number, so each row has 784 columns.  
 The value of each columns range from 0 to 255, inclusive.  
 For training dataset, there is one more columns at the beginning, which indicates the label of the image.  
 
-### 5. Notes
+### 4. Notes
  - You may use existing libraries and packages such as ***sklearn***.
  ```
  from sklearn.neighbors import KNeighborsClassifier
