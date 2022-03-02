@@ -15,7 +15,7 @@ import tools
 train_file = 'D:/2022 Spring/2022S_CS6364_ML/Homework/hw1/public/data_mnist.csv'
 test_file = 'D:/2022 Spring/2022S_CS6364_ML/Homework/hw1/public/test_mnist.csv'
 output_file = './output.csv'
-ans_file = 'D:/2022 Spring/2022S_CS6364_ML/Homework/hw1/public/true_mnist_test.csv'
+sample_file = './sample.csv'
 
 def find_k( X, y, k_range, method = 1):
     """ Use method to find the best k value
@@ -88,19 +88,11 @@ def prediction(data, k_value, X_fit, y_fit):
     print('Prediction has been done')
     print('csv file is saved as ' + output_file)
 
-
-# sample of show img
-#tools.show_img(train_file,415,True)
-#for i in range(2,60):
-#    tools.show_img(test_file,i,False)
-
 """
 for testing:
 It is recommended to reduce the amount of input data
 It is also recommended to test training and prediction separately
 """
-
-
 X, y = tools.load_train_data(train_file, 42001)
 # fit a scaler and scale the values
 scaler = StandardScaler().fit(X)
@@ -117,14 +109,20 @@ sc_test_X = scaler.transform(test_X)
 prediction(sc_test_X, k_value, sc_X, y)
 
 
-
 # Compute the correct rate （additional code)
-# the correct rate is 0.959
-"""
-knn = KNeighborsClassifier(n_neighbors = k_value)
-knn.fit(sc_X, y)
-ans_X, ans_y = tools.load_train_data(ans_file,10001)
-sc_ans_X = scaler.transform(ans_X)
-scores = knn.score(sc_ans_X, ans_y)
-print(scores)
-"""
+# the correct rate is 0.9795
+def inspect(output_file, sample_file):
+    output = np.loadtxt(output_file, dtype = int, delimiter=',', skiprows=1)
+    output = output.flatten()
+    sample = np.loadtxt(sample_file, dtype = int, delimiter=',', skiprows=1)
+    sample = sample.flatten()
+    print("complete loading")
+    diff = 0
+    sum = len(output)
+    for i in range(1, sum, 2):
+        if output[i] != sample[i]:
+            diff += 1
+    error = float(diff)/float(sum)
+    return 'correct rate is ' + str( 1 - error)
+
+#print(inspect(output_file, sample_file))
