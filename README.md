@@ -29,6 +29,6 @@ Machine learning algorithms:
 |Homework 1|K Nearest Neighbors Classifier|Fri, 02/04|
 |Homework 2|Regression|Fri, 02/18|
 |Homework 3|Naive Bayes Classification;Markov Model|Fri, 03/04|
-|Midterm Exam|
-|Homework 4|
+|Midterm Exam||Fir, 03/25|
+|Homework 4|Decision Tree|Fri, 04/01|
 |Term Project|
