@@ -1,4 +1,4 @@
-@ Homework 4
+# Homework 4
 ## Objective 
 ### Part I Decision Tree
 Work out the best feature to split on for the construction of a decision tree
