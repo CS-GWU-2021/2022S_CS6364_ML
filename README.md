@@ -25,10 +25,11 @@ Machine learning algorithms:
 ## Assignments
 |Assignments|Description|Deadline|
 |-----------|-----------|--------|
-|Homework 0|Some mathematical problems related to ML|Fri, 01/28|
-|Homework 1|K Nearest Neighbors Classifier|Fri, 02/04|
-|Homework 2|Regression|Fri, 02/18|
-|Homework 3|Naive Bayes Classification;Markov Model|Fri, 03/04|
-|Midterm Exam||Fir, 03/25|
-|Homework 4|Decision Tree|Fri, 04/01|
-|Term Project|
+|Homework 0|Some mathematical problems related to ML|01/28|
+|Homework 1|K Nearest Neighbors Classifier|02/04|
+|Homework 2|Regression|02/18|
+|Homework 3|Naive Bayes Classification;Markov Model|03/04|
+|Midterm Exam||03/25|
+|Homework 4|Decision Tree|04/01|
+|Homework 5|Pytorch, FNN & CNN|04/28|
+|Term Project|CLPR|04/28|
