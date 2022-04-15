@@ -32,4 +32,4 @@ Machine learning algorithms:
 |Midterm Exam||03/25|
 |Homework 4|Decision Tree|04/01|
 |Homework 5|Pytorch, FNN & CNN|04/28|
-|Term Project|CLPR|04/28|
+|Term Project|CLPR (self-decided project)|04/28|
