@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84bb408-ebc4-415f-8f55-26102757bfe6" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/Homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lpr.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transform.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../hw2/HW2/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw2/HW2/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../hw5/CSCI_6364_4364_Homework_5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw5/CSCI_6364_4364_Homework_5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

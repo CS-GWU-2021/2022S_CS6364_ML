@@ -233,6 +233,8 @@ class MyImage:
         return False
 
     def save_words(self, _imgs):
+        if not os.path.exists('Res/'):
+            os.mkdir('Res/')
         filepath = f'Res/{self.name}/'
         if os.path.exists(filepath):
             shutil.rmtree(filepath)
